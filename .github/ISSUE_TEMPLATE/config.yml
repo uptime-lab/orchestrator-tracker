@@ -3,6 +3,9 @@ contact_links:
   - name: 💬 Questions & general feedback
     url: https://github.com/uptime-lab/orchestrator-tracker/discussions
     about: For questions, ideas, and open-ended feedback, please use Discussions.
+  - name: 🎮 Discord community
+    url: https://discord.com/invite/2MZjPUU59P
+    about: Chat with the team and other users in real time.
   - name: 🔒 Report a security vulnerability
     url: https://github.com/uptime-lab/orchestrator-tracker/blob/main/SECURITY.md
     about: Please do NOT open a public issue for security problems — see our security policy.

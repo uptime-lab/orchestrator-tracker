@@ -9,7 +9,7 @@
 
 **Provisioning and fleet management for Raspberry Pi and bare-metal nodes.**
 
-[Open the App](https://app.orchestrator.sh) · [Report a bug](https://github.com/uptime-lab/orchestrator-tracker/issues/new/choose) · [Discussions](https://github.com/uptime-lab/orchestrator-tracker/discussions)
+[Open the App](https://app.orchestrator.sh) · [Report a bug](https://github.com/uptime-lab/orchestrator-tracker/issues/new/choose) · [Discussions](https://github.com/uptime-lab/orchestrator-tracker/discussions) · [Discord](https://discord.com/invite/2MZjPUU59P)
 
 </div>
 
@@ -40,6 +40,7 @@ repository — this repo exists so you can:
 | 🐛 **Report a bug** | [New issue → Bug report](https://github.com/uptime-lab/orchestrator-tracker/issues/new?template=bug_report.yml) |
 | 💡 **Request a feature** | [New issue → Feature request](https://github.com/uptime-lab/orchestrator-tracker/issues/new?template=feature_request.yml) |
 | 💬 **Ask a question / share feedback** | [Discussions](https://github.com/uptime-lab/orchestrator-tracker/discussions) |
+| 🎮 **Chat with the community** | [Discord](https://discord.com/invite/2MZjPUU59P) |
 | 🗺️ **See what's planned** | [Roadmap](https://github.com/uptime-lab/orchestrator-tracker/issues?q=is%3Aissue+label%3Aroadmap) |
 | 🔒 **Report a security issue** | [SECURITY.md](SECURITY.md) *(please don't file a public issue)* |
 
@@ -55,6 +56,7 @@ repository — this repo exists so you can:
 
 - 🚀 App (beta) — https://app.orchestrator.sh
 - 💬 Discussions — https://github.com/uptime-lab/orchestrator-tracker/discussions
+- 🎮 Discord — https://discord.com/invite/2MZjPUU59P
 - 🔒 Security — [SECURITY.md](SECURITY.md)
 
 ---
