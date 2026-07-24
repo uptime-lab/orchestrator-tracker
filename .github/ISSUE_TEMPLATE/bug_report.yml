@@ -1,0 +1,85 @@
+name: 🐛 Bug report
+description: Report something that isn't working as expected
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please search [existing issues](https://github.com/uptime-lab/orchestrator-tracker/issues?q=is%3Aissue) first to avoid duplicates.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug and what you expected instead.
+      placeholder: When I do X, Y happens. I expected Z.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact steps to trigger the problem.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of the product is affected?
+      options:
+        - Node provisioning / install OS
+        - Netboot / EEPROM / bootloader
+        - Fleet dashboard / node list
+        - Playbooks / workflows
+        - Secrets / credentials / access
+        - Organizational units / policies
+        - Agent (on-device)
+        - Account / auth / login
+        - Other / not sure
+    validations:
+      required: true
+
+  - type: input
+    id: agent-version
+    attributes:
+      label: Agent version (if known)
+      description: Shown in the node sidebar, e.g. 0.3.3.
+      placeholder: "0.3.3"
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Device / OS
+      description: Hardware and OS involved, e.g. "Raspberry Pi CM5 + Ubuntu 24.04".
+      placeholder: Raspberry Pi CM4, Ubuntu 24.04
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: Relevant logs, error messages, or screenshots. Please redact secrets and tokens.
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
+        - label: I removed any secrets, tokens, or private data from logs/screenshots.
+          required: true

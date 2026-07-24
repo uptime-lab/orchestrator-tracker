@@ -1,0 +1,59 @@
+name: 💡 Feature request
+description: Suggest an idea or improvement
+title: "[Feature]: "
+labels: ["feature-request", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Please search [existing requests](https://github.com/uptime-lab/orchestrator-tracker/issues?q=is%3Aissue+label%3Afeature-request) first — if it already exists, add a 👍 and a comment instead of opening a duplicate.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the pain point or use case. What are you trying to do?
+      placeholder: I'm always frustrated when…
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would you like to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workarounds or other approaches you've thought about.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Node provisioning / install OS
+        - Netboot / EEPROM / bootloader
+        - Fleet dashboard / node list
+        - Playbooks / workflows
+        - Secrets / credentials / access
+        - Organizational units / policies
+        - Agent (on-device)
+        - Account / auth / login
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true

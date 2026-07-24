@@ -1,0 +1,17 @@
+title: "[Idea] "
+labels: []
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like to see in Orchestrator, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use case
+      description: How would you (or your team) use this?
+    validations:
+      required: false
